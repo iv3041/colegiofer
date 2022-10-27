@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icono pestañas-->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <!--Link estilos CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fuentes Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <!-- Fuente para h2 Main-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Lobster+Two&family=Raleway:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <!-- Link de Font Awesome -->
+    <script src="https://kit.fontawesome.com/e809114881.js" crossorigin="anonymous"></script>
+    <title>Inicio</title>
+</head>
+<nav class="navbar" id="navHeader">
+    <header class="navHeader">
+        <!-- logo -->
+        <img src="img/logofer.png" alt="Logo FER" id="logoFER">
+        <!-- Título página-->
+        <div class="t-header">
+            <h2>Colegio Mixto</h2>
+            <h1>Francisco ELadio Ramírez</h1>
+        </div>
+        <!--Iconos menú-->
+        <a href="#navHeader" class="menu-open">
+            <i class="fa fa-bars fa2x"></i>
+        </a>
+        <a href="#" class="menu-close">
+            <i class="fa fa-power-off fa2x"></i>
+        </a>
+        <ul class="menuMainD">
+            <li><a href="">Inicio</a></li>
+            <li><a href="pages/resenafer.html">Reseña FER</a></li>
+            <li><a href="pages/horizontefer.html">Horizonte Institucional</a></li>
+            <li><a href="pages/calidad.html">Calidad</a></li>
+            <li><a href="pages/culturafer.html">Cultura FER</a></li>
+            <li><a href="pages/cdifer.html">CDI FER</a></li>
+            <li><a href="pages/contacto.html">Contacto</a></li>
+        </ul>
+    </header>
+    <ul class="menuMain">
+        <li><a href="">Inicio</a></li>
+        <li><a href="pages/resenafer.html">Reseña FER</a></li>
+        <li><a href="pages/horizontefer.html">Horizonte Institucional</a></li>
+        <li><a href="pages/calidad.html">Calidad</a></li>
+        <li><a href="pages/culturafer.html">Cultura FER</a></li>
+        <li><a href="pages/cdifer.html">CDI FER</a></li>
+        <li><a href="pages/contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+<!--Contenido del cuerpo de la página-->
+
+<body>
+    <main>
+        <!--Sesión bienvenida-->
+        <div class="imagenColfer">
+            <img src="img/Niños-felices.jpg" alt="Niños felices">
+        </div>
+        <div>
+            <h2 id="familiaFer">Somos la Familia F.E.R.</h2>
+            <h3 class="wellcome">Bienvenidos</h3>
+        </div>
+        <section class="main">
+            <img class="wcfer" src="img/FER_ENTER.jpg" alt="Familia FER">
+            <p class="p-wcfer"> El Colegio Mixto Francisco Eladio Ramírez Institución de servicio educativo,
+                caracterizada 100% por brindar educación de calidad con el único objetivo de formar estudiantes
+                competentes e integros para la sociedad. Somos una entidad de carácter privado, brindamos educación
+                Técnico Industrial y Comercial desde parvúlos hasta undécimo, contamos con un excelente cuerpo de
+                docentes, aulas amplias, recursos de alta tecnología, programas de inclusión social, egresados con
+                excelentes alternativas y oportunidades para continuar estudios de educación superior y acceder al mundo
+                laboral.</p>
+            <div>
+                <a href="https://home.mycloud.com/action/share/d801926d-bded-445c-b9f7-bf3441e4625b" target="_blank">
+                    <h4 class="b-cal">Calendario</h4>
+                </a>
+            </div>
+            <div>
+                <a href="pages/contacto.html">
+                <h4 class="b-admi">Admisiones</h4></a>
+            </div>
+            <aside>
+                <div>
+                    <h4 class="social">Social</h4>
+                </div>
+                <div>
+                    <div id="ytplayer"></div>
+                    <script>
+                        // Load the IFrame Player API code asynchronously.
+                        var tag = document.createElement('script');
+                        tag.src = "https://www.youtube.com/player_api";
+                        var firstScriptTag = document.getElementsByTagName('script')[0];
+                        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+                        // Replace the 'ytplayer' element with an <iframe> and
+                        // YouTube player after the API code downloads.
+                        var player;
+                        function onYouTubePlayerAPIReady() {
+                            player = new YT.Player('ytplayer', {
+                                height: 'auto',
+                                width: 'auto',
+                                videoId: 'A9B_uPuV-cI'
+                            });
+                        }
+                    </script>
+                    <a href="https://www.youtube.com/channel/UCWrKQFo8kRdIqyF3fT1DJbQ">
+                        <p id="unete">Únete a nuestro canal de
+                            YouTube</p>
+                    </a>
+                    <div class="news">
+                        <h3 class="info">Informáte</h3>
+                        <nav class="menu-aside">
+                            <ul>
+                                <li><a href="https://colombiaaprende.edu.co/contenidos/coleccion/guia-steam-genero"
+                                        target="_blank">STEAM</a></li>
+                                <li><a href="https://www.cali.gov.co/educacion/" target="_blank">SEM Cali</a></li>
+                                <li><a href="https://www.mineducacion.gov.co/portal/" target="_blank">Ministerio de
+                                        Educación</a></li>
+                                <li><a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">SENA</a>
+                                </li>
+                                <li><a href="https://www.mintic.gov.co/portal/inicio/" target="_blank">TICs en
+                                        Colombia</a></li>
+                                <li><a href="https://feriabellezaysalud.com/" target="_blank">Salud y belleza</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+            </aside>
+            <div class="informate">
+                <img id="img-info" src="img/Informate-1024x603.png" alt="Infórmate">
+            </div>
+        </section>
+    </main>
+    <!--Oportunidades-->
+    <section class="s-oportunidades">
+        <div>
+            <h3 class="t-oportunidades">Un mundo de oportunidades espera por ti</h3>
+        </div>
+        <div class="img-oportunidades">
+            <div>
+                <img src="img/IMG_4407.jpg" alt="Biliguismo">
+            </div>
+            <div>
+                <img src="img/IMG_4414.jpg" alt="EspaciosFER">
+            </div>
+            <div>
+                <img src="img/IMG_6958.jpg" alt="EdufisicaFER">
+            </div>
+            <div>
+                <img src="img/IMG_4385.jpg" alt="TecnoFER">
+            </div>
+        </div>
+        <div class="p-oportunidades">
+            <div>
+                <p>La sala de bilinguismo que nos permite desarrollar programas de formación en idioma extranjero
+                    (ingles) a los alumnos, facilitando su aprendizaje mediante el uso de software, grabaciones de
+                    cassete y la interacción de dialogo alumno - docente con lecciones practicas.</p>
+            </div>
+            <div>
+                <p>El diseño de interiores para espacios educativos, bien sean educación superior, básica, bibliotecas o
+                    aula maker, deberá propiciar dinamismo. En otras palabras, los espacios deben garantizar
+                    experiencias memorables de aprendizaje. De igual manera, deberán cumplir con los protocolos de
+                    bioseguridad actuales.</p>
+            </div>
+            <div>
+                <p>La clase de educación física ha formado parte de la educación desde hace muchos años y esta ha estado
+                    sujeta a distintos cambios a lo largo de este periodo. Esto, con el objetivo de añadirse debidamente
+                    al Sistema Educativo.</p>
+            </div>
+            <div>
+                <p>La educación STEAM es una forma de aproximarse al aprendizaje utilizando la Ciencia, la Tecnología,
+                    la Ingeniería, las Artes y las Matemáticas como pilares para guiar a los estudiantes a que
+                    desarrollen el pensamiento crítico, el diálogo y la investigación.</p>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <div class="flex-footer">
+            <div>
+                <img src="img/logofer.png" alt="Logo FER" id="logoFER-footer">
+            </div>
+            <div class="info-footer">
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i>Carrera 26C1 # 76 - 35 Cali</li>
+                    <li><i class="fa-solid fa-phone"></i>+57 (2) 422 53 28</li>
+                    <li><i class="fa-solid fa-envelope"></i>colegio-fer@hotmail.com</li>
+                </ul>
+            </div>
+            <div class="socialnetwork">
+                <a href="https://walink.co/50ed1b" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/people/Colegio-Mixto-Francisco-Eladio-Ramirez/100062952234255/"
+                    target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/colmix.fer?igshid=YmMyMTA2M2Y=" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="frase-footer">
+            <p>La educación genera confianza. La confianza genera esperanza. La esperanza genera paz (Confucio)</p>
+        </div>
+        <div class="acordeon-footer">
+            <div class="col-acor-footer">
+                <ul class="lista-acor-footer">
+                    <li class="item-acor-footer"><a href=""><a href="">Ir arriba</a></li>
+                    <li class="item-acor-footer"><a
+                            href="https://home.mycloud.com/action/share/50d80858-da0d-485f-b796-32fd3d1cf72b"
+                            target="_blank">ExpoFER</a></li>
+                </ul>
+            </div>
+            <div class="col-acor-footer">
+                <ul class="lista-acor-footer">
+                    <li class="item-acor-footer"><a
+                            href="https://home.mycloud.com/action/share/5d0563f5-1494-4fe7-95f3-6d97ba7f3e65"
+                            target="_blank">Política FER</a></li>
+                    <li class="item-acor-footer"><a
+                            href="https://home.mycloud.com/action/share/6bc0f9b7-0170-4a48-8e77-cddde8447172"
+                            target="_blank">Docs FER</a></li>
+                </ul>
+            </div>
+            <div class="col-acor-footer">
+                <ul class="lista-acor-footer">
+                    <li class="item-acor-footer"><a
+                            href="https://home.mycloud.com/action/share/805c503d-e787-4c66-9bb1-c83375d31bdd"
+                            target="_blank">Calidad</a></li>
+                    <li class="item-acor-footer"><a href="https://www.colegiofercali.com/registro-de-calificaciones"
+                            target="_blank">Registro</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-footer">
+            <p>Copyright © Todos los Derechos Reservados</p>
+            <p>Colegio Mixto Francisco Eladio Ramírez 2022</p>
+            <p>Design by JIMP Ingeniería SAS</p>
+        </div>
+    </footer>
+</body>
+
+</html>
